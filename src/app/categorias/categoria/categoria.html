@@ -1,17 +1,18 @@
 <div class="p-6 max-w-lg mx-auto bg-white shadow-lg rounded-lg mt-5">
     <h2 class="text-2x1 font-semibold text-gray-700 mg-4">Nova categoria</h2>
-    <form id="categoriaForm">
+    <form id="categoriaForm" [formGroup]="camposForm" (ngSubmit)="salvar()">
         <!--Campo nome-->
         <div class="mb-4">
             <label class="block texto-gray-600 font-medium mb-2">Nome</label>
             <input 
             type="text" 
             id="nome" 
-            name="nome" 
+            name="nome"
+            formControlName="nome"
             placeholder="Ex: Restaurantes, praias, shoppings..."
             class="w-full p-3 border border-gray-300 rounded shadow-sm focus:ring focus:ring-blue-400"
             required>
-        <span class="text-red-500 text-sm">
+        <span class="text-red-500 text-sm" *ngIf="isCampoInvalido('nome')">
             Campo obrigatório
         </span>
         </div>
@@ -22,10 +23,12 @@
                 rows="4" 
                 id="descricao" 
                 name="descricao" 
+                formControlName="descricao"
+                placeholder="Ex: Restaurantes, praias, shoppings..."
                 class="w-full p-3 border border-gray-300 rounded shadow-sm focus:outline-none focus:ring focus:ring-blue-400"
                 required
             ></textarea>
-            <span class="text-red-500 text-sm">
+            <span class="text-red-500 text-sm" *ngIf="isCampoInvalido('descricao')">
                 Campo obrigatório
             </span>
         </div>

@@ -1,0 +1,25 @@
+{
+  "categorias": [
+    {
+      "id": "1",
+      "nome": "Shoppings",
+      "descricao": "Lugares para comprar e passear"
+    },
+    {
+      "id": "9POpKik2N48",
+      "nome": "Shoppings",
+      "descricao": "Lugares para comprar e passear"
+    },
+    {
+      "nome": "Praias",
+      "descricao": "Lugares para tomar banho com a família",
+      "id": "ITSW30BXb2Y"
+    },
+    {
+      "nome": "teste",
+      "descricao": "teste",
+      "id": "xVMc_8y1Row"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

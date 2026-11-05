@@ -1,59 +1,91 @@
-# PasseioApp
+# 🌎 Galeria de Lugares
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.21.
+Uma aplicação web desenvolvida com **Angular** que permite explorar e organizar lugares por meio de uma interface intuitiva e visual.
 
-## Development server
+O projeto foi desenvolvido como parte dos meus estudos em desenvolvimento Front-end, aplicando conceitos de autenticação, proteção de rotas, componentização e estilização moderna.
 
-To start a local development server, run:
+## Tecnologias utilizadas
 
-```bash
-ng serve
-```
+![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![SCSS](https://img.shields.io/badge/SCSS-CC6699?style=for-the-badge&logo=sass&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![Google](https://img.shields.io/badge/Google_Authentication-4285F4?style=for-the-badge&logo=google&logoColor=white)
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## Funcionalidades
 
-## Code scaffolding
+- 🔐 **Autenticação social:** login utilizando uma conta Google.
+- 🛡️ **Proteção de rotas:** utilização de Angular Guards para controlar o acesso às páginas.
+- 🖼️ **Galeria de lugares:** visualização dos lugares cadastrados.
+- 🗂️ **Categorias:** organização e visualização de categorias.
+- 🧭 **Navegação:** navegação entre as diferentes páginas da aplicação.
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## Demonstração
 
-```bash
-ng generate component component-name
-```
+### Login
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+![Tela de login](./login.png)
 
-```bash
-ng generate --help
-```
+### Galeria
 
-## Building
+![Galeria de lugares](./galeria.png)
 
-To build the project run:
+### Categorias
 
-```bash
-ng build
-```
+![Categorias](./categorias.png)
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+### Lugares
 
-## Running unit tests
+![Lugares](./lugares.png)
 
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
+## 🚀 Como executar o projeto
 
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
+### 1. Clone o repositório
 
 ```bash
-ng e2e
+git clone https://github.com/ductvi/Galeria-de-lugares-Angular.git
 ```
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+### 2. Acesse a pasta do projeto
 
-## Additional Resources
+```bash
+cd Galeria-de-lugares-Angular
+```
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+### 3. Instale as dependências
+
+```bash
+npm install
+```
+
+### 4. Execute a aplicação
+
+```bash
+npx ng serve
+```
+
+### 5. Acesse no navegador
+
+```text
+http://localhost:4200
+```
+
+A aplicação estará disponível em ambiente de desenvolvimento.
+
+## Conhecimentos aplicados
+
+- Desenvolvimento de aplicações com Angular.
+- Criação e reutilização de componentes.
+- Estilização de interfaces com Tailwind CSS.
+- Integração de autenticação social com Google.
+- Implementação de Guards para proteção de rotas.
+- Organização e estruturação de projetos Front-end.
+- Utilização de TypeScript e SCSS.
+
+## Autor
+
+**Eduardo Custódio**
+
+[![GitHub](https://img.shields.io/badge/GitHub-ductvi-181717?style=for-the-badge&logo=github)](https://github.com/ductvi)
+

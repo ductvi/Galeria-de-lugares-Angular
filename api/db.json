@@ -6,19 +6,40 @@
       "descricao": "Lugares para comprar e passear"
     },
     {
-      "id": "9POpKik2N48",
-      "nome": "Shoppings",
-      "descricao": "Lugares para comprar e passear"
-    },
-    {
       "nome": "Praias",
       "descricao": "Lugares para tomar banho com a família",
       "id": "ITSW30BXb2Y"
     },
     {
-      "nome": "teste",
-      "descricao": "teste",
-      "id": "xVMc_8y1Row"
+      "nome": "Parques",
+      "descricao": "Lugares para passear ao ar livre.",
+      "id": "Kt1FHi6TE-0"
+    }
+  ],
+  "lugares": [
+    {
+      "nome": "Parque Ibirapuera",
+      "categoria": "Parques",
+      "localizacao": "São Paulo",
+      "urlFoto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT91Xx4se-9uj684-Ou3TvTGRAQ8O1Ay3Jp4e7wSKNybqQqTJhlYokJPY8&s=10",
+      "avaliacao": "4",
+      "id": "lYHyF2OidgM"
+    },
+    {
+      "nome": "Shopping JK Iguatemi",
+      "categoria": "Shoppings",
+      "localizacao": "São Paulo",
+      "urlFoto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhDySC2vNwLwjNcANmfnf3ctaC2NL-Ko3J4GgxOxCI4-fg2dNGlCODFO8&s=10",
+      "avaliacao": "4",
+      "id": "BKw0U7u6lQY"
+    },
+    {
+      "nome": "Praia da Baleia",
+      "categoria": "Praias",
+      "localizacao": "São Sebastião",
+      "urlFoto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiPZbYf2Rp8Ja9c9vVgpbTYQU-oMTzwC-KLQWEUepM_9uJ_X1vdqM_50I&s=10",
+      "avaliacao": "5",
+      "id": "yolNSoUJmiU"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

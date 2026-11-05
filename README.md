@@ -25,7 +25,7 @@ O projeto foi desenvolvido como parte dos meus estudos em desenvolvimento Front-
 
 ### Login
 
-![Tela de login](./login.png)
+![Tela de login](./public/login.png)
 
 ### Galeria
 

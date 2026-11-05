@@ -2,21 +2,16 @@ import { NgModule, provideBrowserGlobalErrorListeners } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing-module';
 import { App } from './app';
-import { provideHttpClient, withFetch} from '@angular/common/http'
+import { provideHttpClient, withFetch } from '@angular/common/http';
 import { TemplateModule } from './template/template-module';
+import { Landingpage } from './landingpage/landingpage';
+import {provideOAuthClient} from 'angular-oauth2-oidc'
 @NgModule({
-  declarations: [
-    App
+  declarations: [App, Landingpage],
+  imports: [BrowserModule, AppRoutingModule, TemplateModule],
+  providers: [provideBrowserGlobalErrorListeners(), provideHttpClient(withFetch()),
+    provideOAuthClient()
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    TemplateModule
-  ],
-  providers: [
-    provideBrowserGlobalErrorListeners(),
-    provideHttpClient(withFetch())
-  ],
-  bootstrap: [App]
+  bootstrap: [App],
 })
-export class AppModule { }
+export class AppModule {}

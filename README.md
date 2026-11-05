@@ -29,15 +29,15 @@ O projeto foi desenvolvido como parte dos meus estudos em desenvolvimento Front-
 
 ### Galeria
 
-![Galeria de lugares](./galeria.png)
+![Galeria de lugares](./public/galeria.png)
 
 ### Categorias
 
-![Categorias](./categorias.png)
+![Categorias](./public/categorias.png)
 
 ### Lugares
 
-![Lugares](./lugares.png)
+![Lugares](./public/lugares.png)
 
 ## 🚀 Como executar o projeto
 
